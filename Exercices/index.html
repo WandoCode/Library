@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="form">
+        <div>
+            <label for="title">Titre du livre:</label>
+            <input name="titre" id="title" type="text">
+        </div>
+        <div>
+            <label for="author">Auteur du livre:</label>
+            <input name="auteur" id="author" type="text">
+        </div>
+        <div>
+            <label for="pages">Nombre de page:</label>
+            <input name="pages" id="pages" type="text">
+        </div>
+        <fieldset>
+            <legend>Avez-vous deja lu ce livre?</legend>
+            <div>
+                <input name="read" id="read" type="radio" value="l'avez deja lu.">
+                <label for="read">Oui</label>
+            </div>
+            <div>
+                <input name="read" id="read" type="radio" valu="ne l'avez pas encore lu.">
+                <label for="not-read">Non</label>
+            </div>
+        </fieldset>
+        <button type="submit" id="btn">Soumettre</button>
+
+
+    </div>
+
+    <script src="library.js"></script>
+</body>
+
+</html>
